@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:fitsSystemWindows="true">
+
+    <!-- Encabezado con logo UTEQ y banner de noticias -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="#1B5E20"
+        android:padding="8dp"
+        android:gravity="center_vertical"
+        android:elevation="4dp">
+
+        <ImageView
+            android:id="@+id/ivLogoUteq"
+            android:layout_width="0dp"
+            android:layout_height="64dp"
+            android:layout_weight="1"
+            android:src="@drawable/logo_uteq"
+            android:scaleType="fitStart"
+            android:adjustViewBounds="true"
+            android:contentDescription="Logo UTEQ" />
+
+        <ImageView
+            android:id="@+id/ivUteqNoticias"
+            android:layout_width="0dp"
+            android:layout_height="64dp"
+            android:layout_weight="1"
+            android:src="@drawable/uteq_noticias"
+            android:scaleType="fitEnd"
+            android:adjustViewBounds="true"
+            android:contentDescription="UTEQ Noticias" />
+
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/lvRevistas"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:divider="@android:color/darker_gray"
+        android:dividerHeight="1dp" />
+
+</LinearLayout>

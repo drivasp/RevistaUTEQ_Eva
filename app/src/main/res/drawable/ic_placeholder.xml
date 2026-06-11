@@ -1,0 +1,18 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="90dp"
+    android:height="120dp"
+    android:viewportWidth="90"
+    android:viewportHeight="120">
+    <!-- Fondo gris -->
+    <path
+        android:fillColor="#E0E0E0"
+        android:pathData="M0,0H90V120H0Z" />
+    <!-- Sol -->
+    <path
+        android:fillColor="#BDBDBD"
+        android:pathData="M63,30 m-9,0 a9,9 0 1,0 18,0 a9,9 0 1,0 -18,0Z" />
+    <!-- Montañas / paisaje -->
+    <path
+        android:fillColor="#BDBDBD"
+        android:pathData="M10,85L35,55L52,72L67,48L80,85Z" />
+</vector>
