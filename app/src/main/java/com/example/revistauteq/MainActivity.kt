@@ -11,8 +11,11 @@ import com.android.volley.toolbox.Volley
 class MainActivity : AppCompatActivity() {
 
     private val tag = "MainActivity"
+
+
     private val apiUrl =
-        "https://apiws.uteq.edu.ec/h6RPoSoRaah0Y4Bah28eew/functions/information/entity/5"
+        "http://apiws.uteq.edu.ec/h6RPoSoRaah0Y4Bah28eew/functions/information/entity/5"
+
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -61,4 +64,7 @@ class MainActivity : AppCompatActivity() {
 
         queue.add(request)
     }
+
+
+
 }
